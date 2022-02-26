@@ -15,3 +15,26 @@ body{
 h1{
     color: #33372F;
 }
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #33372F;
+    margin: 0px;
+    justify-content: space-evenly;
+    padding: 1px;
+}
+
+li {
+    background-color: #B4CFC9;
+    border-radius: 3px;
+    padding: 5px 20px;   
+}
+
+a {
+    color: #33372F;
+    text-decoration: none;
+    background-color: #B4CFC9;
+    border-radius: 3px; 
+}
