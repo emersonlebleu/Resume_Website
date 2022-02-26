@@ -16,25 +16,25 @@ h1{
     color: #33372F;
 }
 
-
 ul {
     list-style-type: none;
     display: flex;
     background-color: #33372F;
     margin: 0px;
-    justify-content: space-evenly;
+    justify-content: left;
     padding: 1px;
 }
 
 li {
-    background-color: #B4CFC9;
-    border-radius: 3px;
-    padding: 5px 20px;   
+    margin: 2px .5rem;
+    padding: 5px 20px;
+    background-color: #33372F;
+    border: #ffff solid;
+    border-radius: 1px;
+    border-width: 2px;       
 }
 
 a {
-    color: #33372F;
-    text-decoration: none;
-    background-color: #B4CFC9;
-    border-radius: 3px; 
+    color: #FFFF;
+    text-decoration: none; 
 }
