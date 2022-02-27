@@ -10,12 +10,14 @@ Opal - #B4CFC9
 body{
     background-color: #F9FBEF;
     margin:0%;
+    font-family: 'Courier New', Courier, monospace; 
 }
 
 h1{
     color: #33372F;
 }
 
+/* These are the stylings for the JS created nav content may need to tag things more specificaly in the future */
 ul {
     list-style-type: none;
     display: flex;
@@ -29,12 +31,13 @@ li {
     margin: 2px .5rem;
     padding: 5px 20px;
     background-color: #33372F;
-    border: #ffff solid;
-    border-radius: 1px;
+    border-left: #ffff solid;
+    border-right: #ffff solid;
+    border-radius: 2px;
     border-width: 2px;       
 }
 
 a {
     color: #FFFF;
-    text-decoration: none; 
+    text-decoration: none;
 }
