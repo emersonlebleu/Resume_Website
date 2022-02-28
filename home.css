@@ -11,19 +11,22 @@ body{
     background-color: #F9FBEF;
     margin:0%;
     font-family: 'Courier New', Courier, monospace; 
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: stretch; */
 }
 
 h1{
     color: #33372F;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 /* styles for floating nav box */
 #sidebar {
     width: 20%;
-    padding: 20px 5px;
+    padding: 10px 5px;
 }
 
 .nav-nav {
