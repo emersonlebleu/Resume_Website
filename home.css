@@ -11,33 +11,54 @@ body{
     background-color: #F9FBEF;
     margin:0%;
     font-family: 'Courier New', Courier, monospace; 
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
 }
 
 h1{
     color: #33372F;
 }
 
-/* These are the stylings for the JS created nav content may need to tag things more specificaly in the future */
-ul {
-    list-style-type: none;
-    display: flex;
-    background-color: #33372F;
-    margin: 0px;
-    justify-content: left;
-    padding: 1px;
+/* styles for floating nav box */
+#sidebar {
+    width: 20%;
+    padding: 20px 5px;
 }
 
-li {
-    margin: 2px .5rem;
+.nav-nav {
+    position: sticky;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #33372F;
+    margin: 2px;
+    justify-content: center;
+    padding: .5px;
+    max-width: 8rem;
+    border-radius: 6px;
+}
+
+.nav-li {
+    display: flex;
+    margin: 1px 1.5px;
     padding: 5px 20px;
     background-color: #33372F;
     border-left: #ffff solid;
     border-right: #ffff solid;
-    border-radius: 2px;
-    border-width: 2px;       
+    border-radius: 5px;
+    border-width: 2px;
+    justify-content: center;      
 }
 
-a {
+.nav-a {
     color: #FFFF;
     text-decoration: none;
+}
+
+.nav-li:hover {
+    background-color: #474A2C;
 }

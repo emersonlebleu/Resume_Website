@@ -5,11 +5,11 @@ class Nav extends HTMLElement {
     }
     connectedCallback(){
         this.innerHTML = `
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resume</a></li>
+        <nav class="nav-nav">
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="#" class="nav-a">About</a></li>
+                <li class="nav-li"><a href="#" class="nav-a">Projects</a></li>
+                <li class="nav-li"><a href="#" class="nav-a">Resume</a></li>
             </ul>
         </nav> `;
     }
