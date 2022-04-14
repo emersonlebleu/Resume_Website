@@ -2,6 +2,7 @@
 venv/
 
 #Django#
+__pycache__
 
 #Notes#
 notes.txt
