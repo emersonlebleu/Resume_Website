@@ -1,0 +1,7 @@
+#VENV#
+venv/
+
+#Django#
+
+#Notes#
+notes.txt
