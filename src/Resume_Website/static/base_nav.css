@@ -1,3 +1,25 @@
-h1{
-    color: red;
+body{
+    background-color: #F1F7ED;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-nav{
+    background-color: #502419;
+    color: #F1F7ED;
+}
+
+#ul-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.nav-li{
+    margin: 4px;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: inherit;
 }
