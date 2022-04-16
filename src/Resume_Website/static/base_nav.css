@@ -1,17 +1,19 @@
 body{
     background-color: #F1F7ED;
     font-family: 'Montserrat', sans-serif;
+    color:#502419;
 }
 
 #main-nav{
     background-color: #502419;
     color: #F1F7ED;
+    display: flex;
 }
 
 #ul-nav{
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:flex-start;
 }
 
