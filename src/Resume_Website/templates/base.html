@@ -14,17 +14,22 @@
     {% block title %}<title>Base HTML</title>{% endblock %}
 </head>
 <body>
-    {% block nav %}
-    <nav id="main-nav">
-        <ul id="ul-nav">
-            <li class="nav-li"><a href="/about" class="nav-a">About</a></li>
-            <li class="nav-li"><a href="/projects" class="nav-a">Projects</a></li>
-            <li class="nav-li"><a href="/resume" class="nav-a">Resume</a></li>
-            <li class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
-            <li class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
-        </ul>
-    </nav>
-    {% endblock %}
-    {% block content %}<h1 id="title-tag">Base Page</h1>{% endblock %}
+    <div class="sidebar">
+        {% block nav %}
+        <nav id="main-nav">
+            <ul id="ul-nav">
+                <li class="nav-li"><a href="/about" class="nav-a">About</a></li>
+                <li class="nav-li"><a href="/projects" class="nav-a">Projects</a></li>
+                <li class="nav-li"><a href="/resume" class="nav-a">Resume</a></li>
+                <li class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
+                <li class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
+            </ul>
+        </nav>
+        {% endblock %}
+    </div>
+    
+    <div class="main-section">
+        {% block content %}<h1 id="title-tag">Base Page</h1>{% endblock %}
+    </div>
 </body>
 </html>
