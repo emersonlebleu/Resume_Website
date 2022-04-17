@@ -1,7 +1,10 @@
 body{
+    font-family: 'Courier New', Courier, monospace;
     background-color: #F1F7ED;
-    font-family: 'Montserrat', sans-serif;
     color:#502419;
+}
+
+#body-container{
     display: flex;
     flex-direction: row;
 }
@@ -26,10 +29,13 @@ body{
     margin: 4px;
     border-bottom: solid #F1F7ED;
     border-radius: 10%;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .nav-li:hover{
     background-color: #8C3F2C;
+
 }
 
 .nav-a{
@@ -39,6 +45,7 @@ body{
 
 .main-section{
     padding-left: 40px;
+    flex-grow: 1;
 }
 
 .sidebar{
