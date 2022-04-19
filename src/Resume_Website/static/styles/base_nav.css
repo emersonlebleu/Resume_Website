@@ -1,7 +1,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #F1F7ED;
-    color:#502419;
+    background-color: white;
+    color:#000000;
 }
 
 #header-section{
@@ -15,8 +15,8 @@ body{
 }
 
 #main-nav{
-    background-color: #502419;
-    color: #F1F7ED;
+    background-color: #000000;
+    color: #ffffff;
     display: inline-flex;
     border-radius: 5%;
 }
@@ -32,14 +32,14 @@ body{
 
 .nav-li{
     margin: 4px;
-    border-bottom: solid #F1F7ED;
+    border-bottom: solid #ffffff;
     border-radius: 10%;
     padding-left: 4px;
     padding-right: 4px;
 }
 
 .nav-li:hover{
-    background-color: #8C3F2C;
+    background-color: #333333;
 
 }
 
