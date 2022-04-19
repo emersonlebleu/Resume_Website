@@ -23,9 +23,10 @@
                 <ul id="ul-nav">
                     <li class="nav-li"><a href="/about" class="nav-a">About</a></li>
                     <li class="nav-li"><a href="/projects" class="nav-a">Projects</a></li>
-                    <li class="nav-li"><a href="/resume" class="nav-a">Resume</a></li>
                     <li class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
                     <li class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
+                    {% load static %}
+                    <li class="nav-li"><a href='{% static "Resume (18APR2022).docx" %}' class="nav-a">*Resume</a></li>
                 </ul>
             </nav>
             {% endblock %}

@@ -1,4 +1,5 @@
 from django.shortcuts import render
+import mimetypes
 
 # Create your views here.
 def about_view(request):
@@ -13,5 +14,5 @@ def contact_view(request):
 def projects_view(request):
     return render(request, 'projects.html', {})
     
-def resume_view(request):
-    return render(request, 'resume.html', {})
+# def resume_download(request):
+#     return render(request, "Emerson's Resume (18APR2022).docx", {})
