@@ -1,6 +1,11 @@
 {% extends 'base.html' %} 
+{% load static %}
 
 {% block title %}<title>Resume</title>{% endblock %}
 
 {% block header-content %}Resume Page{% endblock %}
-{% block content %}<h1 id="title-tag">Resume Page</h1>{% endblock %}
+{% block content %}
+<h1 id="title-tag">Resume Page</h1>
+<button type="button"><a href='{% static "assets/Resume (18APR2022).docx" %}'>Download Resume</a></button>
+
+{% endblock %}

@@ -14,5 +14,5 @@ def contact_view(request):
 def projects_view(request):
     return render(request, 'projects.html', {})
     
-# def resume_download(request):
-#     return render(request, "Emerson's Resume (18APR2022).docx", {})
+def resume_view(request):
+    return render(request, 'resume.html', {})
