@@ -14,22 +14,22 @@
     {% block title %}<title>Base HTML</title>{% endblock %}
 </head>
 <body>
-    <h1 id="header-section">{% block header-content %}Base Page{% endblock %}</h1>
+    <nav id="main-nav">
+        <svg id="code-logo" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+        </svg>
+        <ul id="ul-nav">
+            <li class="nav-li"><a href="/about" class="nav-a">About</a></li>
+            <li class="nav-li"><a href="/projects" class="nav-a">Projects</a></li>
+            <li class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
+            <li class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
+            <li class="nav-li"><a href='/resume' class="nav-a">Resume</a></li>
+        </ul>
+    </nav>
+    
     <div id="body-container">
 <!-- --------------------SIDEBAR SECTION---------------------------- -->
-        <div class="sidebar">
-            {% block nav %}
-            <nav id="main-nav">
-                <ul id="ul-nav">
-                    <li class="nav-li"><a href="/about" class="nav-a">About</a></li>
-                    <li class="nav-li"><a href="/projects" class="nav-a">Projects</a></li>
-                    <li class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
-                    <li class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
-                    <li class="nav-li"><a href='/resume' class="nav-a">Resume</a></li>
-                </ul>
-            </nav>
-            {% endblock %}
-        </div>
+        {% block sidebar %}{% endblock %}
 <!-- --------------------MAIN CONTENT SECTION---------------------------- -->
         <div class="main-section">
             {% block content %}<h1 id="title-tag">Base Page</h1>{% endblock %}
