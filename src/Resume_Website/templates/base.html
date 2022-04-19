@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Roboto&display=swap" rel="stylesheet">
     {% load static %}
-    <link rel="stylesheet" href="{% static 'base_nav.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/base_nav.css' %}">
 
     {% block title %}<title>Base HTML</title>{% endblock %}
 </head>
@@ -26,7 +26,7 @@
                     <li class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
                     <li class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
                     {% load static %}
-                    <li class="nav-li"><a href='{% static "Resume (18APR2022).docx" %}' class="nav-a">*Resume</a></li>
+                    <li class="nav-li"><a href='{% static "assets/Resume (18APR2022).docx" %}' class="nav-a">*Resume</a></li>
                 </ul>
             </nav>
             {% endblock %}
