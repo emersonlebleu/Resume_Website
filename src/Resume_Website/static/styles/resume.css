@@ -7,11 +7,14 @@
     background-size: 200% 100%;
     background-position:right bottom;
     color: #ffffff;
-    border-radius: 10%;
-    border-style: none;
+    border-radius: 20%;
+    border: solid #53830b 3px;
     padding: 4px 8px 4px 8px;
     font-family: inherit;
     font-size: large;
+    width: 22px; 
+    height: 22px;
+    display: inline-block;
     
     transform: translateY(-5px);
     transition: all .35s ease-out;
@@ -22,8 +25,10 @@
 }
 
 #download-link{
+    display: inline-block;
     text-decoration: none;
     color: inherit;
+    transform: translateX(1px);
 }
 
 .resume-section {
