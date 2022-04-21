@@ -3,7 +3,7 @@
     padding: 8px;
 }
 #download-btn{
-    background: linear-gradient(to left, #000000 50%, #53830b 50%);
+    background: linear-gradient(to left, #121212 50%, #53830b 50%);
     background-size: 200% 100%;
     background-position:right bottom;
     color: #ffffff;
