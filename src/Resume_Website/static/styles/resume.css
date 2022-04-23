@@ -1,5 +1,9 @@
+#page-header{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
 #title-tag{
-    display: inline;
     padding: 8px;
 }
 #download-btn{
@@ -8,13 +12,13 @@
     background-position:right bottom;
     color: #ffffff;
     border-radius: 20%;
-    border: solid #53830b 3px;
     padding: 4px 8px 4px 8px;
     font-family: inherit;
     font-size: large;
-    width: 22px; 
-    height: 22px;
+    width: 15px; 
+    height: 15px;
     display: inline-block;
+    margin-left: 1em;
     
     transform: translateY(-5px);
     transition: all .35s ease-out;
@@ -28,10 +32,22 @@
     display: inline-block;
     text-decoration: none;
     color: inherit;
-    transform: translateX(1px);
+    transform: translateX(-2.5px) translateY(-3px);
 }
 
 .resume-section {
-    display: block;
-    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: #121212 solid 1px;
+}
+
+p{
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+h3 {
+    display: inline-block;
+    border-bottom: #121212 solid 1px;
 }
