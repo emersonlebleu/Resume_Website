@@ -16,6 +16,7 @@ body{
     background-color: #121212;
     color: #ffffff;
     display: flex;
+    width: 100%;
 }
 
 #ul-nav{
@@ -28,6 +29,7 @@ body{
     padding-right: 20px;
     margin-top: 6px;
     margin-bottom: 8px;
+    width: 90%;
 }
 
 .nav-li{
@@ -51,6 +53,11 @@ body{
 
 .nav-a:hover{
     background-position: bottom;
+}
+
+#right-nav-div{
+    display: flex;
+    margin-left: auto;
 }
 
 .sidebar{

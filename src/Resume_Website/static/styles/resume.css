@@ -1,3 +1,8 @@
+#main-section {
+    max-width: 70%;
+    align-self: center;    
+}
+
 #page-header{
     display: flex;
     justify-content: center;
@@ -36,9 +41,11 @@
 }
 
 .resume-section {
-    display: flex;
-    flex-direction: column;
+    max-width: 80%;
+    /* display: flex;
+    flex-direction: column; */
     align-items: center;
+    margin: auto;
 }
 
 p{
@@ -58,8 +65,7 @@ h3 {
 .work-ex-date{
     display: inline-block;
 }
-.work-ex-description{
-    max-width: 50%;
-}
+
+
 
 

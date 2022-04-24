@@ -33,9 +33,11 @@
         <ul id="ul-nav">
             <li class="nav-li"><a href="/about" class="nav-a">About</a></li>
             <li class="nav-li"><a href="/projects" class="nav-a">Projects</a></li>
-            <li class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
-            <li class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
             <li class="nav-li"><a href='/resume' class="nav-a">Resume</a></li>
+            <div id="right-nav-div">
+                <li id="contact-li" class="nav-li"><a href="/contact" class="nav-a">Contact</a></li>
+                <li id="articles-li" class="nav-li"><a href="/articles" class="nav-a">Articles</a></li>
+            </div>
         </ul>
     </nav>
     
@@ -43,7 +45,7 @@
 <!-- --------------------SIDEBAR SECTION---------------------------- -->
         {% block sidebar %}{% endblock %}
 <!-- --------------------MAIN CONTENT SECTION---------------------------- -->
-        <div class="main-section">
+        <div id="main-section">
             {% block content %}<h1 id="title-tag">Base Page</h1>{% endblock %}
         </div>
     </div>
