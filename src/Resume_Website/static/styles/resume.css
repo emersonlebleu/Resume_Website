@@ -11,6 +11,7 @@
 #title-tag{
     padding: 8px;
 }
+
 #download-btn{
     background: linear-gradient(to left, #121212 50%, #53830b 50%);
     background-size: 200% 100%;
@@ -40,6 +41,8 @@
     transform: translateX(-2.5px) translateY(-3px);
 }
 
+/* ------------------Content Section--------------------------- */
+
 .resume-section {
     max-width: 80%;
     /* display: flex;
@@ -61,11 +64,36 @@ h3 {
     padding: .25em 3em;
 }
 
-/* Work Experience Section */
-.work-ex-date{
-    display: inline-block;
+/* ----Tech Content------- */
+#tech-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#tech-container > div:first-child {
+    margin-left: 0px;
+}
+
+#tech-container > div {
+    margin: 1em 5em;
+}
+
+#tech-container > div > p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #53830b;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
 }
 
 
+/* ----------------Work Experience Section------------------- */
+.work-ex-date{
+    display: inline-block;
+}
 
 
