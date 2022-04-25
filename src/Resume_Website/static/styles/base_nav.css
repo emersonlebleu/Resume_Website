@@ -29,7 +29,7 @@ body{
     padding-right: 20px;
     margin-top: 6px;
     margin-bottom: 8px;
-    width: 90%;
+    flex-grow: 1;
 }
 
 .nav-li{
