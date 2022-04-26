@@ -1,7 +1,10 @@
 {% extends 'base.html' %} 
 {% load static %}
 
-{% block styles %}<link rel="stylesheet" href="{% static 'styles/resume.css' %}">{% endblock %}
+{% block styles %}
+<link rel="stylesheet" href="{% static 'styles/resume.css' %}">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+{% endblock %}
 {% block title %}<title>Resume</title>{% endblock %}
 
 {% block content %}
@@ -32,19 +35,19 @@
     <h3>Technologies</h3>
     <div id="tech-container">
         <div id="web-tripple">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JS</p>
+            <p><img src="{% static 'assets/html-logo.svg' %}" alt="django-logo" width="80px" height="80px"></p>
+            <p><img src="{% static 'assets/css-logo.svg' %}" alt="django-logo" width="80px" height="80px"></p>
+            <p><img src="{% static 'assets/js-logo.svg' %}" alt="python-logo" width="70px" height="70px"></p>
         </div>
 
         <div id="python-double">
-            <p>Python</p>
-            <p>Django</p>        
+            <p><img src="{% static 'assets/python-logo.svg' %}" alt="python-logo" width="80px" height="80px"></p>
+            <p><img src="{% static 'assets/django-logo.svg' %}" alt="django-logo" width="70px" height="70px"></p>        
         </div>
 
         <div id="database-double">
-            <p>SQL</p>
-            <p>Postgres</p>
+            <p><img src="{% static 'assets/postgresql-logo.svg' %}" alt="django-logo" width="70px" height="70px"></p>
+            <p><img src="{% static 'assets/sql-logo.svg' %}" alt="django-logo" width="70px" height="70px"></p>
         </div>
     </div>
 </section>
