@@ -70,6 +70,7 @@ h3 {
     width: 100%;
     background-color: #E0E0E0;
     border-radius: 10px;
+    justify-content: space-between;
 }
 
 #tech-container > div:first-child {
@@ -78,7 +79,6 @@ h3 {
 
 #tech-container > div {
     margin-top: 1em;
-    margin-right: 5px;
     margin-bottom: 1em;
     max-width: 33%;
 }
@@ -109,10 +109,12 @@ h3 {
 #web-tripple > :nth-child(2) {
     grid-column: 1;
     grid-row: 2;
+    transform: translateX(1em) translateY(-.5em);
 }
 #web-tripple > :nth-child(3) {
     grid-column: 3;
     grid-row: 2;
+    transform: translateX(-1em)
 }
 
 /* python double */
@@ -127,11 +129,13 @@ h3 {
 #python-double > :first-child {
     grid-column: 1;
     grid-row: 1;
+    transform: translateX(-1em)
 }
 
 #python-double > :nth-child(2) {
     grid-column: 1;
     grid-row: 2;
+    transform: translateX(1em)
 }
 
 /* database double */
@@ -146,11 +150,13 @@ h3 {
 #database-double > :first-child {
     grid-column: 1;
     grid-row: 1;
+    transform: translateX(1em)
 }
 
 #database-double > :nth-child(2) {
     grid-column: 1;
     grid-row: 2;
+    transform: translateX(-1em)
 }
 
 /* ----------------Work Experience Section------------------- */
