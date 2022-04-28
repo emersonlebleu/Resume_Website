@@ -5,18 +5,14 @@ body{
     margin: 0px;
 }
 
-#body-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px;
-    margin-bottom: 3rem;
-}
-
 #main-nav{
     background-color: #121212;
     color: #ffffff;
     display: flex;
     width: 100%;
+    opacity: .8;
+    position: sticky;
+    top: 0;
 }
 
 #ul-nav{
@@ -30,6 +26,7 @@ body{
     margin-top: 6px;
     margin-bottom: 8px;
     flex-grow: 1;
+    opacity: inherit;
 }
 
 .nav-li{
@@ -49,6 +46,7 @@ body{
     background-size: 100% 200%;
     background-position:  top;
     transition: all .25s ease-out;
+    opacity: inherit;
 }
 
 .nav-a:hover{
@@ -88,6 +86,7 @@ h1{
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    opacity: inherit;
   }
   
 .flip-logo:hover .flip-logo-inner {
@@ -124,4 +123,11 @@ h1{
 
 #initials {
     transform: translateY(-38px) translateX(2px);
+}
+
+#body-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 3rem;
 }
