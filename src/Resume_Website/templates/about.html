@@ -1,5 +1,14 @@
 {% extends 'base.html' %} 
 {% load static %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'styles/about.css' %}">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+{% endblock %}
+
 {% block title %}<title>About</title>{% endblock %}
 
-{% block content %}<h1 id="title-tag"><img src="{% static 'assets/welcome.svg' %}" alt="Welcome"></h1>{% endblock %}
+{% block content %}
+    <object data="{% static 'assets/welcome.svg' %}" ></object>
+        
+{% endblock %}
