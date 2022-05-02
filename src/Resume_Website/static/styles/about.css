@@ -1,7 +1,7 @@
-svg{
-    fill: white;
-}
-
 body{
     background-color: darkolivegreen;
+}
+
+object {
+    max-width: 90%;
 }
