@@ -2,6 +2,16 @@ body{
     background-color: darkolivegreen;
 }
 
+#main-section {
+    display: flex;
+    justify-content: center;
+}
+
 object {
     max-width: 90%;
+}
+
+#welcome-svg{
+    fill: white;
+    max-width: 80%;
 }
