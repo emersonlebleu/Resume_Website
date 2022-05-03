@@ -12,6 +12,81 @@ object {
 }
 
 #welcome-svg{
-    fill: white;
+    
     max-width: 80%;
+}
+
+#welcome-w {
+    fill: transparent;
+    animation: welcome-animation 4s ease forwards;
+}
+
+@keyframes welcome-animation {
+    0% {
+        fill: transparent;
+
+    }
+    100% {
+        fill: white;
+    }
+}
+
+#welcome-el {
+    fill: transparent;
+    animation: welcome-animation 5s .75s ease forwards;
+}
+
+@keyframes welcome-animation {
+    0% {
+        fill: transparent;
+
+    }
+    100% {
+        fill: white;
+    }
+}
+
+#welcome-come {
+    fill: transparent;
+    animation: welcome-animation 7s 1.25s ease forwards;
+}
+
+@keyframes welcome-animation {
+    0% {
+        fill: transparent;
+
+    }
+    100% {
+        fill: white;
+    }
+}
+
+#welcome-ex-line {
+    fill: transparent;
+    animation: welcome-animation 5s 2s ease forwards;
+}
+
+@keyframes welcome-animation {
+    0% {
+        fill: transparent;
+
+    }
+    100% {
+        fill: white;
+    }
+}
+
+#welcome-ex-point {
+    fill: transparent;
+    animation: welcome-animation 5s 3s ease forwards;
+}
+
+@keyframes welcome-animation {
+    0% {
+        fill: transparent;
+
+    }
+    100% {
+        fill: white;
+    }
 }
