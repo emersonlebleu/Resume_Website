@@ -1,24 +1,31 @@
 body{
-    background-color: darkolivegreen;
+    background-color: #ffffff;
+    height: 100vh;
 }
 
 #main-section {
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
-object {
-    max-width: 90%;
+#welcome-container{
+    height: 100%;
+    width: 100%;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #welcome-svg{
-    
     max-width: 80%;
+    fill: darkolivegreen;
 }
 
 #welcome-w {
     fill: transparent;
-    animation: welcome-animation 4s ease forwards;
+    animation: welcome-animation 3s ease forwards;
 }
 
 @keyframes welcome-animation {
@@ -27,13 +34,13 @@ object {
 
     }
     100% {
-        fill: white;
+        fill: darkolivegreen;
     }
 }
 
 #welcome-el {
     fill: transparent;
-    animation: welcome-animation 5s .75s ease forwards;
+    animation: welcome-animation 4s .75s ease forwards;
 }
 
 @keyframes welcome-animation {
@@ -42,13 +49,13 @@ object {
 
     }
     100% {
-        fill: white;
+        fill: darkolivegreen;
     }
 }
 
 #welcome-come {
     fill: transparent;
-    animation: welcome-animation 7s 1.25s ease forwards;
+    animation: welcome-animation 4s 1.25s ease forwards;
 }
 
 @keyframes welcome-animation {
@@ -57,7 +64,7 @@ object {
 
     }
     100% {
-        fill: white;
+        fill: darkolivegreen;
     }
 }
 
@@ -72,13 +79,13 @@ object {
 
     }
     100% {
-        fill: white;
+        fill: darkolivegreen;
     }
 }
 
 #welcome-ex-point {
     fill: transparent;
-    animation: welcome-animation 5s 3s ease forwards;
+    animation: welcome-animation 3s 3s ease forwards;
 }
 
 @keyframes welcome-animation {
@@ -87,6 +94,6 @@ object {
 
     }
     100% {
-        fill: white;
+        fill: darkolivegreen;
     }
 }
