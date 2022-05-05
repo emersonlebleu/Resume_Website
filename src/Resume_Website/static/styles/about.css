@@ -6,11 +6,9 @@ body{
 #main-section {
     display: flex;
     justify-content: center;
-    height: 100%;
 }
 
 #welcome-container{
-    height: 100%;
     width: 100%;
     background-color: inherit;
     display: flex;
