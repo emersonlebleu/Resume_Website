@@ -139,7 +139,7 @@ h1{
 #body-container{
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     animation: transition-in 1s;
     height: inherit;

@@ -1,12 +1,12 @@
-console.log("Working!");
+console.log("Working!")
 
 let firstLoad = sessionStorage.getItem("welcome")
 
 console.log(firstLoad)
 
 if (firstLoad == null) {
-    sessionStorage.setItem("welcome", "loaded"); 
-    let firstLoad = sessionStorage.getItem("welcome");
+    sessionStorage.setItem("welcome", "loaded") 
+    let firstLoad = sessionStorage.getItem("welcome")
     console.log("Inside First")
     console.log(firstLoad)
 
