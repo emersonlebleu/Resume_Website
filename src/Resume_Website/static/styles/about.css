@@ -23,7 +23,7 @@
     border-right: .15em solid #53830b;  
     animation: 
       typing 1.5s steps(20, end),
-      blink-caret .45s step-end infinite;
+      blink-caret .45s step-end 8 forwards;
 }
 
 /* animations for the heading */
