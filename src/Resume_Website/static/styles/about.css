@@ -26,12 +26,11 @@ h3 {
 
 #welcome-svg{
     max-width: 100%;
-    fill: darkolivegreen;
 }
 
 #welcome-w {
-    fill: transparent;
-    animation: welcome-animation 3s ease forwards;
+    fill: darkolivegreen;
+    animation: welcome-animation 3s ease backwards;
 }
 
 @keyframes welcome-animation {
@@ -45,8 +44,8 @@ h3 {
 }
 
 #welcome-el {
-    fill: transparent;
-    animation: welcome-animation 4s .75s ease forwards;
+    fill: darkolivegreen;
+    animation: welcome-animation 4s .75s ease backwards;
 }
 
 @keyframes welcome-animation {
@@ -60,8 +59,8 @@ h3 {
 }
 
 #welcome-come {
-    fill: transparent;
-    animation: welcome-animation 4s 1.25s ease forwards;
+    fill: darkolivegreen;
+    animation: welcome-animation 4s 1.25s ease backwards;
 }
 
 @keyframes welcome-animation {
@@ -75,8 +74,8 @@ h3 {
 }
 
 #welcome-ex-line {
-    fill: transparent;
-    animation: welcome-animation 5s 2s ease forwards;
+    fill: darkolivegreen;
+    animation: welcome-animation 5s 2s ease backwards;
 }
 
 @keyframes welcome-animation {
@@ -90,8 +89,8 @@ h3 {
 }
 
 #welcome-ex-point {
-    fill: transparent;
-    animation: welcome-animation 3s 3s ease forwards;
+    fill: darkolivegreen;
+    animation: welcome-animation 3s 3s ease backwards;
 }
 
 @keyframes welcome-animation {
