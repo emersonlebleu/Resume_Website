@@ -12,6 +12,7 @@
     font-size: 12ch;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 200;
+    text-align: center;
     width: 70%;
     margin-bottom: 20px;
     color: #53830b;
@@ -43,11 +44,12 @@
 }
 
 .head-container {
-    width: 90%;
-    text-align: center;
+    width: 98%;
     background-color: #121212;
     padding-top: 1em;
     padding-bottom: 1em;
+    border-radius: 3px;
+    opacity: .95;
 }
 
 h3 {
