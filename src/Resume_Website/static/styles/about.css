@@ -45,7 +45,7 @@ h3 {
 
 #welcome-el {
     fill: darkolivegreen;
-    animation: welcome-animation 4s .75s ease backwards;
+    animation: welcome-animation 2s .75s ease backwards;
 }
 
 @keyframes welcome-animation {
@@ -60,7 +60,7 @@ h3 {
 
 #welcome-come {
     fill: darkolivegreen;
-    animation: welcome-animation 4s 1.25s ease backwards;
+    animation: welcome-animation 3s 1.25s ease backwards;
 }
 
 @keyframes welcome-animation {
@@ -75,7 +75,7 @@ h3 {
 
 #welcome-ex-line {
     fill: darkolivegreen;
-    animation: welcome-animation 5s 2s ease backwards;
+    animation: welcome-animation 4s 2s ease backwards;
 }
 
 @keyframes welcome-animation {
