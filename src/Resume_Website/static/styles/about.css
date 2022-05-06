@@ -8,11 +8,46 @@
     flex-direction: column;
 }
 
+#typed-heading{
+    font-size: 12ch;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    width: 70%;
+    margin-bottom: 20px;
+    color: #53830b;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .1em;
+    border-right: .15em solid #53830b;  
+    animation: 
+      typing 1.5s steps(20, end),
+      blink-caret .45s step-end infinite;
+}
+
+/* animations for the heading */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+}
+        
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #53830b }
+}
+
 .content-container{
     width: 60%;
-    background-color: inherit;
     align-self: center;
     margin: auto;
+}
+
+.head-container {
+    width: 90%;
+    text-align: center;
+    background-color: #121212;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 h3 {
@@ -26,83 +61,4 @@ h3 {
 
 p{
     line-height: 2em;
-}
-
-#welcome-svg{
-    max-width: 100%;
-}
-
-#welcome-w {
-    fill: darkolivegreen;
-    animation: welcome-animation 3s ease backwards;
-}
-
-@keyframes welcome-animation {
-    0% {
-        fill: transparent;
-
-    }
-    100% {
-        fill: darkolivegreen;
-    }
-}
-
-#welcome-el {
-    fill: darkolivegreen;
-    animation: welcome-animation 2s .75s ease backwards;
-}
-
-@keyframes welcome-animation {
-    0% {
-        fill: transparent;
-
-    }
-    100% {
-        fill: darkolivegreen;
-    }
-}
-
-#welcome-come {
-    fill: darkolivegreen;
-    animation: welcome-animation 3s 1.25s ease backwards;
-}
-
-@keyframes welcome-animation {
-    0% {
-        fill: transparent;
-
-    }
-    100% {
-        fill: darkolivegreen;
-    }
-}
-
-#welcome-ex-line {
-    fill: darkolivegreen;
-    animation: welcome-animation 4s 2s ease backwards;
-}
-
-@keyframes welcome-animation {
-    0% {
-        fill: transparent;
-
-    }
-    100% {
-        fill: darkolivegreen;
-    }
-}
-
-#welcome-ex-point {
-    fill: darkolivegreen;
-    animation: welcome-animation 3s 3s ease backwards;
-}
-
-@keyframes welcome-animation {
-    0% {
-        fill: transparent;
-
-    }
-    100% {
-        fill: darkolivegreen;
-    }
 }
