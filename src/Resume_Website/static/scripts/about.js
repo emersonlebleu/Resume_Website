@@ -1,17 +1,13 @@
 console.log("Working!")
 
-let firstLoad = sessionStorage.getItem("welcome")
+let firstLoad = sessionStorage.getItem("loaded")
 
 if (firstLoad == null) {
-    sessionStorage.setItem("welcome", "loaded") 
-    let firstLoad = sessionStorage.getItem("welcome")
+    sessionStorage.setItem("loaded", "yes") 
 
 } else {
-    document.getElementById("welcome-w").style.animation = "none";
-    document.getElementById("welcome-el").style.animation = "none";
-    document.getElementById("welcome-come").style.animation = "none";
-    document.getElementById("welcome-ex-line").style.animation = "none";
-    document.getElementById("welcome-ex-point").style.animation = "none";
+    document.getElementById("typed-heading").style.animation = "none";
+    document.getElementById("typed-heading").style.borderRight = "none";
 }
 
 
