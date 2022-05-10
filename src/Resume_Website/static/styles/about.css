@@ -58,6 +58,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    font-size: 2em;
 
     /* background-color: #121212; */
     color: #121212;
