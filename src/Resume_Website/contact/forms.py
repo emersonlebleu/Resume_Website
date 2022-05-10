@@ -21,7 +21,7 @@ class ContactForm(forms.Form):
         msg = f'"{name}" sent:'
         msg += f'\n"{subject}"\n\n'
         msg += cl_data.get('message')
-        msg += f'\n\n{name} email address: {sender_email}'
+        msg += f'\n\nemail address: {sender_email}'
 
         return subject, msg, sender_email
 
