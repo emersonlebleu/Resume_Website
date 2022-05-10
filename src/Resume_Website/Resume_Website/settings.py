@@ -101,9 +101,9 @@ WSGI_APPLICATION = 'Resume_Website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'resume_site_db',
-        'USER': 'postgres',
-        'PASSWORD': 'RnsYx4707933!',
+        'NAME': env('NAME'),
+        'USER': env('USER'),
+        'PASSWORD': env('PASSWORD'),
         'HOST': 'localhost',
         'PORT': '5432',
     }
