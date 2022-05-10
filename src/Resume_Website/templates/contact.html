@@ -1,4 +1,7 @@
 {% extends 'base.html' %} 
+{% load static %}
+
+{% block styles %}<link rel="stylesheet" href="{% static 'styles/contact.css' %}">{% endblock %}
 
 {% block title %}<title>Contact</title>{% endblock %}
 
@@ -8,7 +11,7 @@
     <h1>Contact Emerson</h1>
 </div>
 <div>
-    <form action="" method="post">
+    <form id="contact-form" action="" method="post">
         {% csrf_token %}
         {{ form }}
     <button type="submit">Send message</button>
