@@ -13,7 +13,7 @@
     <h1 id="typed-heading">Hello World</h1>
 </section>
 <section class="content-container">
-    <h3>About</h3>
+    <h3>Introduction</h3>
     <p>I’m a software developer based in the Salt Lake City area expecting to finish my B.S. in Software Development before December 2022.
         I have a previous B.S. and M.S. (Psychology, and Experimental Psychology respectively) and currently work at Huntsman Cancer Institute. 
         My work here has involved developing a database and system to track, and distribute to our teams, information about study opportunities 
@@ -50,5 +50,6 @@
     </p>    
 </section>
 
-    <script src="{% static 'scripts/about.js' %}"></script>
 {% endblock %}
+
+{% block scripts %}<script src="{% static 'scripts/about.js' %}"></script>{% endblock %}
