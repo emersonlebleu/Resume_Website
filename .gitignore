@@ -6,3 +6,6 @@ __pycache__
 
 #Notes#
 notes.txt
+
+#django settings
+.env
