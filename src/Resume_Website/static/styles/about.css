@@ -36,6 +36,25 @@
     50% { border-color: #53830b }
 }
 
+/* Responsiveness for heading */
+@media only screen and (max-width: 1320px){
+    #typed-heading{
+        font-size: 12ch;
+    }
+}
+
+@media only screen and (max-width: 1060px){
+    #typed-heading{
+        font-size: 9ch;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    #typed-heading{
+        font-size: 6ch;
+    }
+}
+
 .content-container{
     width: 90%;
     display: flex;
