@@ -102,17 +102,17 @@ h1{
   }
   
 .flip-logo-front {
-    background-color: #53830b;
+    background-color: #0000;
     border-radius: 50%;
-    border: solid #ffffff 2px;
+    border: solid #ffffff 1px;
     padding: 3px;
     transform: translateY(-5px);
   }
 
 .flip-logo-back {
-    background-color: #53830b;
+    background-color: #0000;
     border-radius: 50%;
-    border: solid #ffffff 2px;
+    border: solid #ffffff 1px;
     transform: translateY(-5px) translateX(-10px) rotateY(180deg);
     padding: 3px;
   }
