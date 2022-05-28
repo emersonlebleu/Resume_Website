@@ -39,7 +39,7 @@ body{
     text-decoration: none;
     color: inherit;
     border-bottom: solid #ffffff;
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 2px;
 
     background: linear-gradient(to bottom, #121212 50%, #53830b 50%);
