@@ -1,7 +1,7 @@
 #main-section {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-self: center;
     padding-bottom: 3em;
 }
@@ -11,13 +11,17 @@
     border-radius: 20px;
     margin: .5em 3em 3em 3em;
     width: 80vw;
+    height: 80vh;
+
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
-    text-align: center;
-    padding: 1em;
+    padding: 2em;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 3em;
+    flex-basis: 1;
 }
 
 h3 {
@@ -30,16 +34,6 @@ h3 {
     margin: 4%;
 }
 
-.paragraph-container {
-    flex-grow: 1;
-    align-self: center;
-    width: 80%;
-    height: 65vh;
-    display: flex;
-    align-items: center;
-    overflow: overlay;
-}
-
 p{
     font-size: larger;
     line-height: 2em;
@@ -48,5 +42,7 @@ p{
     margin-left: 3%;
     margin-right: 3%;
     flex-grow: 1;
+    overflow: overlay;
+    padding: 2em;
 }
 
