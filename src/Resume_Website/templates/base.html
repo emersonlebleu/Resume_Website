@@ -15,6 +15,12 @@
     {% block title %}<title>Base HTML</title>{% endblock %}
 </head>
 <body>
+    <div class="background-container">
+        <div class="background" id="black"></div>
+        <div class="background" id="green"></div>
+        <div class="background" id="gray"></div>
+    </div>
+
     <nav id="main-nav">
 <!-- Flipping Corner Logo -->
         <div class="flip-logo">
@@ -41,6 +47,7 @@
     </nav>
     
     <div id="body-container">
+
 <!-- --------------------SIDEBAR SECTION---------------------------- -->
         {% block sidebar %}{% endblock %}
 <!-- --------------------MAIN CONTENT SECTION---------------------------- -->
