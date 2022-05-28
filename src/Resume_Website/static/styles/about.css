@@ -11,8 +11,8 @@
 
 .content-container{
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    margin: .5em 100px 3em 100px;
+    border-radius: 20px;
+    margin: .5em 3em 3em 3em;
     width: 90vw;
     height: 80vh;
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
@@ -41,8 +41,7 @@ p{
     flex-basis: 77%;
     text-indent: 4em;
     text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
-#main-section section.content-container:last-child {
-    border-bottom: none;
-}
