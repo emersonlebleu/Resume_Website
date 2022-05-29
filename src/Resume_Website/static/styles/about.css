@@ -18,6 +18,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
 }
 
 #side-section > ul {
@@ -36,6 +38,18 @@
     border-radius: 5px;
     margin: .5em;
     padding: 3px;
+
+    color: inherit;
+
+    background: linear-gradient(to bottom, #121212 50%, #53830b 50%);
+    background-size: 100% 200%;
+    background-position:  top;
+    transition: all .25s ease-out;
+}
+
+.side-item:hover{
+    background-position: bottom;
+    cursor: pointer;
 }
 
 /* Main Section----------------------------------------------------------- */
