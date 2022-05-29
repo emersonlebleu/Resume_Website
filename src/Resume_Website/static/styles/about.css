@@ -1,8 +1,9 @@
 /* Side Section -----------------------------------------------------------*/
 #side-wrapper {
-    overflow: hidden;
-    height: 100%;
-    display: flex;
+    color: inherit;
+    position: absolute;
+    z-index: 2;
+    margin-left: 2%;
 }
 
 #side-section {
@@ -59,13 +60,15 @@
     justify-content: center;
     align-self: center; 
     padding-bottom: 3em;
+    margin-left: 20%;
+    margin-right: 10%;
 }
 
 .content-container{
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     margin: .5em 3em 3em 3em;
-    width: 80vw;
+    width: 70vw;
     height: 80vh;
 
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);

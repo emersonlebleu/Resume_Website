@@ -25,4 +25,3 @@ intro_link.addEventListener("click", function() {
     gToIntro()
 })
 
-// Overall scrolling fix
