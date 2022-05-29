@@ -186,6 +186,7 @@ h1{
     transform: rotate(40deg);
     background-color: #191a19;
     z-index: -3;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 #green {
@@ -196,6 +197,7 @@ h1{
     transform: rotate(-35deg);
     background-color: #53830b;
     z-index: -2;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 #gray {
@@ -206,4 +208,5 @@ h1{
     transform: rotate(30deg);
     background-color: #696b6a;
     z-index: -1;
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px 8px rgba(0, 0, 0, 0.1);
 }
