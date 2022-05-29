@@ -44,7 +44,7 @@
     z-index: 2;
     
     transition: all .35s ease-out;
-    animation: btnGlow 1.5s ease-in 1.5s infinite alternate forwards;
+    animation: btnGlow 2s ease-in 1.5s infinite alternate forwards;
 }
 
 @keyframes btnGlow {
@@ -52,9 +52,8 @@
         box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px 8px rgba(0, 0, 0, 0.1);
     }
     to {
-        box-shadow: 4px 4px 8px 12px rgba(255, 255, 255, 0.1), -4px -4px 8px 12px rgba(255, 255, 255, 0.1);
+        box-shadow: 4px 4px 8px 12px rgba(154, 250, 44, 0.1), -4px -4px 8px 12px rgba(154, 250, 44, 0.1);
     }
-    
 }
 
 #download-btn:hover {
