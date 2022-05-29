@@ -154,7 +154,7 @@ h1{
     margin-bottom: 3rem;
     animation: transition-in 1s;
     height: 100%;
-    width: 70%;
+    width: 100%;
     z-index: 1;
     overflow-y: scroll;
     overflow-x: hidden;

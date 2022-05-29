@@ -1,10 +1,11 @@
 /* Side Section -----------------------------------------------------------*/
 #side-wrapper {
     position: absolute;
+    top: 10%;
+    left: 10vw;
     color: inherit;
     z-index: 2;
     margin-left: 2%;
-    width: 30%;
 }
 
 #side-section {
@@ -63,6 +64,8 @@
     flex-direction: column; 
     padding-bottom: 3em;
     
+    justify-content: center;
+    align-items: center;
 }
 
 .content-container{
