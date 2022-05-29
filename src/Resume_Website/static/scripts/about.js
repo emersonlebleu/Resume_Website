@@ -1,4 +1,4 @@
-
+// Scrolling functionality for the sidebar links
 function gToBackground() {
     document.getElementById("background").scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' })
 }
@@ -24,3 +24,5 @@ ps_link.addEventListener("click", function() {
 intro_link.addEventListener("click", function() {
     gToIntro()
 })
+
+// Overall scrolling fix
