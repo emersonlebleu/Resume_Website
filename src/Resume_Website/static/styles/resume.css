@@ -1,5 +1,5 @@
 #main-section {
-    max-width: 70%;
+    max-width: 1000px;
     align-self: center;
     line-height: 1.5em;
     
@@ -25,16 +25,21 @@
     background-size: 200% 100%;
     background-position:right bottom;
     color: #ffffff;
-    border-radius: 3px;
+    border-radius: 50%;
     padding: 4px 8px 4px 8px;
     font-family: inherit;
     font-size: large;
-    width: 15px; 
-    height: 15px;
-    display: inline-block;
-    margin-left: 1em;
+    width: 80px; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 2px;
     
-    transform: translateY(-5px);
+    position: absolute;
+    transform: translateX(-120%);
+    z-index: 2;
+    
     transition: all .35s ease-out;
 }
 
@@ -46,7 +51,6 @@
     display: inline-block;
     text-decoration: none;
     color: inherit;
-    transform: translateX(-2.5px) translateY(-3px);
 }
 
 .tooltip {
@@ -68,7 +72,7 @@
 
     position: absolute;
     z-index: 1;
-    top: -3px;
+    top: 50px;
     left: 120%;
   }
 

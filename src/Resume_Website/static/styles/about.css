@@ -4,12 +4,14 @@
     position: absolute;
     z-index: 2;
     margin-left: 2%;
+    width: 13%;
 }
 
 #side-section {
     background-color: #121212;
     color: white;
     height: 25%;
+    width: 85%;
 
     margin: 2em 1em 1em 1em;
     border-radius: 10px;
@@ -68,7 +70,7 @@
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     margin: .5em 3em 3em 3em;
-    width: 70vw;
+    max-width: 1000px;
     height: 80vh;
 
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
