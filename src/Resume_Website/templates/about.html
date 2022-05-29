@@ -8,9 +8,19 @@
 
 {% block title %}<title>About</title>{% endblock %}
 
-{% block content %}
+{% block sidebar %}
+    <section id="side-section">
+        <ul style="list-style-type: none;">
+            <li class="side-item" id="intro-link">Introduction</li>
+            <li class="side-item" id="ps-link">Personal Statement</li>
+            <li class="side-item" id="bg-link">Background</li>
+        </ul>
+    </section>
+{% endblock %}
 
-<section class="content-container">
+<!-- Right Side -->
+{% block content %}
+<section class="content-container" id="introduction">
     <h3>Introduction</h3>
         <p>
             I’m a software developer based in the Salt Lake City area expecting to finish my B.S. in Software Development before December 2022.
@@ -22,7 +32,7 @@
         </p> 
 </section>
 
-<section class="content-container">
+<section class="content-container" id="personal-statement">
     <h3>Personal Statement</h3>
         <p>
         As a developer I’d say I’m language and technology agnostic. I’m familiar with the technologies that I use but enjoy learning 
@@ -33,8 +43,8 @@
         </p>       
 </section>
 
-<section class="content-container">
-    <h3>History</h3>
+<section class="content-container" id="background">
+    <h3>Background</h3>
         <p>
             My first experience dabbling with coding (C++ first, later visual basic, and later still with the statistics focused language R) was around 2011.
             My exploration was inspired by the work in research that I was doing during my undergraduate and later graduate studies where the need for technology 

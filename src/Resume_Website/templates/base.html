@@ -45,16 +45,18 @@
             </div>
         </ul>
     </nav>
-    
-    <div id="body-container">
-
-<!-- --------------------SIDEBAR SECTION---------------------------- -->
+<!-- page wrapper is new -->
+    <div id="page-wrapper">
+    <!-- --------------------SIDEBAR SECTION---------------------------- -->
         {% block sidebar %}{% endblock %}
-<!-- --------------------MAIN CONTENT SECTION---------------------------- -->
-        <div id="main-section">
-            {% block content %}<h1 id="title-tag">Base Page</h1>{% endblock %}
+    <!-- --------------------MAIN CONTENT SECTION---------------------------- -->
+        <div id="body-container">
+            <div id="main-section">
+                {% block content %}<h1 id="title-tag">Base Page</h1>{% endblock %}
+            </div>
         </div>
     </div>
+
 
     {% block scripts %}{% endblock %}
 </body>

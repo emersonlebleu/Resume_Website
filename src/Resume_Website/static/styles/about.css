@@ -1,8 +1,28 @@
-#main-section {
+/* Side Section -----------------------------------------------------------*/
+#side-section {
+    background-color: #121212;
+    color: white;
+    position: sticky;
+    height: 25%;
+
+    margin-top: 2em;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
+    justify-items: stretch;
+    overflow: hidden;
+}
+
+.side-item {
+    text-decoration: none;
+}
+
+/* Main Section----------------------------------------------------------- */
+#main-section {
+    display: flex;
+    flex-direction: column; 
     justify-content: center;
-    align-self: center;
+    align-self: center; 
     padding-bottom: 3em;
 }
 
