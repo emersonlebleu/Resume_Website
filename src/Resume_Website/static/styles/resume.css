@@ -22,27 +22,27 @@
 
 /* Button ------------------------------------------------------------------------------------------------------- */
 #download-btn{
+    position: absolute;
+    transform: translateX(-130%);
+    z-index: 2;
+
     background: linear-gradient(to left, #121212 50%, #53830b 50%);
     background-size: 200% 100%;
     background-position:right bottom;
     color: #ffffff;
+    width: 60px; 
+    height: 60px;
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px 8px rgba(0, 0, 0, 0.1);
-
+    border: white solid 2px;
     border-radius: 50%;
     padding: 4px 8px 4px 8px;
     font-family: inherit;
     font-size: large;
-    width: 60px; 
-    height: 60px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    border: white solid 2px;
-    
-    position: absolute;
-    transform: translateX(-130%);
-    z-index: 2;
-    
+
     transition: all .35s ease-out;
     animation: btnGlow 2s ease-in 1.5s infinite alternate forwards;
 }
