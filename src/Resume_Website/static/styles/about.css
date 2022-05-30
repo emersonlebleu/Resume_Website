@@ -11,8 +11,8 @@
 #side-section {
     background-color: #121212;
     color: white;
-    height: 25%;
-    width: 85%;
+    height: 150px;
+    width: 150px;
     max-width: 200px;
 
     margin-left: auto;
@@ -42,7 +42,7 @@
 
     width: 80%;
     border-radius: 5px;
-    margin: .5em;
+    margin: .25em;
     padding: 3px;
 
     color: inherit;
