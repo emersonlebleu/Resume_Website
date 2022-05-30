@@ -65,7 +65,7 @@
     max-width: 1000px;
     align-self: center;
     padding-bottom: 3em;
-    
+    margin-left: 8%;
 }
 
 .content-container{
@@ -106,3 +106,40 @@ p{
     padding: 2em;
 }
 
+/* Responsiveness ---------------------------------------------------- */
+@media (max-width: 1200px) {
+    #side-section {
+        height: auto;
+        width: auto;
+        max-width: fit-content;
+        transform: translateX(10%) translateY(10%);
+        animation: none;
+    }
+    #side-section > ul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 3px
+    }
+    .side-item {
+        width: auto;
+        margin: 2px;
+        padding: 3px;
+    
+        color: inherit;
+    }
+    #main-section {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .content-container{
+        margin: 4em 1em 4em 1em;
+        height: 75vh;
+    
+        padding: 1em 2em 2em 2em;
+    
+        padding-bottom: 3em;
+    }
+}
