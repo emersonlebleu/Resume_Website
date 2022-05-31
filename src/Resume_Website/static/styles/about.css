@@ -113,15 +113,19 @@ p{
         height: auto;
         width: auto;
         max-width: fit-content;
-        transform: translateX(10%) translateY(10%);
+        transform: translateY(20%);
         animation: none;
+        position: sticky;
+        top: 1%;
+        margin-left: auto;
+        margin-right: auto;
     }
     #side-section > ul {
         flex-direction: row;
         justify-content: center;
         align-items: center;
         margin: 0px;
-        padding: 3px
+        padding: 5px 10px;
     }
     .side-item {
         width: auto;
