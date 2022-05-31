@@ -16,6 +16,7 @@
     align-items: center;
     text-align: center;
 
+    transition: all .35s ease-out;
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
     animation: edgeGlow 2s ease-in 1.5s infinite alternate forwards;
 }
@@ -135,8 +136,8 @@ p{
     }
 
     .content-container{
-        margin: 4em 1em 4em 1em;
-        height: 75vh;
+        margin: 4em 1em 5em 1em;
+        height: 80vh;
     
         padding: 1em 2em 2em 2em;
     
