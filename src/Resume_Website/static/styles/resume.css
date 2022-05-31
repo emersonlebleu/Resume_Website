@@ -5,9 +5,9 @@
     
     background-color: rgba(255, 255, 255, .9);
     border-radius: 15px;
-    margin: .5em 100px;
+    margin: .5em 100px 10% 100px;
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
-    padding: 1em;
+    padding: 1em 1em 3em 1em;
 }
 
 #page-header{
@@ -207,7 +207,7 @@ h3 {
     }
 }
 
-@media (max-width: 770px) and (min-width:480px) {
+@media (max-width: 770px) {
     #download-btn{
         width: 30px;
         height: 30px;
@@ -215,5 +215,11 @@ h3 {
     #download-link-svg{
         width: 20px;
         height: 20px;    
+    }
+    #main-section {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        border-radius: 0%;
     }
 }
