@@ -193,3 +193,12 @@ h3 {
 }
 
 
+/* Responsiveness ---------------------------------------------------- */
+@media (max-width: 1200px) {
+    #download-btn{
+        transform: translateX(-10%);
+        width: 60px; 
+        height: 60px;
+        animation: none;
+    }
+}
