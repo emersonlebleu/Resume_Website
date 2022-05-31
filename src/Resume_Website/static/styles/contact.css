@@ -46,6 +46,9 @@
     height: 10%;
 }
 
+#contact-form textarea {
+    max-height: 200px;
+}
 
 #id_name, #id_email {
     width: 50%;
@@ -56,6 +59,7 @@
     color: white;
     font-family: inherit;
     width: 20%;
+    min-width: fit-content;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 3px;
