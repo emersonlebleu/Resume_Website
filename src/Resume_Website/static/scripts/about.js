@@ -1,14 +1,14 @@
 // Scrolling functionality for the sidebar links
 function gToBackground() {
-    document.getElementById("background").scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'start' })
+    document.getElementById("background").scrollIntoView({ behavior: 'smooth', block: 'center'})
 }
 
 function gToPersonalStatement() {
-    document.getElementById("personal-statement").scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'start'})
+    document.getElementById("personal-statement").scrollIntoView({ behavior: 'smooth', block: 'center'})
 }
 
 function gToIntro() {
-    document.getElementById("introduction").scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'start' })
+    document.getElementById("introduction").scrollIntoView({ behavior: 'smooth', block: 'center'})
 }
 
 let bg_link = document.getElementById("bg-link")
