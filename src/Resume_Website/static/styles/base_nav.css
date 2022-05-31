@@ -210,3 +210,9 @@ h1{
     z-index: -1;
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px 8px rgba(0, 0, 0, 0.1);
 }
+/* Responsiveness ---------------------------------------------------- */
+@media (max-width: 1200px) {
+    body {
+        font-size: .9rem;
+    }
+}
