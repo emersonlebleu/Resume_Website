@@ -1,7 +1,7 @@
 /* Side Section -----------------------------------------------------------*/
 #side-section {
     position: absolute;
-    transform: translateX(-100%) translateY(5%);
+    transform: translateX(-100%) translateY(100%);
     z-index: 2;
 
     background-color: #121212;
@@ -72,9 +72,9 @@
 .content-container{
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
-    margin: .5em 1em 3em 1em;
+    margin: 1% 1% 7% 1%;
     max-width: 900px;
-    height: 80vh;
+    height: 75vh;
 
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
     padding: 2em 2em 2em 2em;
@@ -143,5 +143,8 @@ p{
     
         padding-bottom: 3em;
     }
-
 }
+
+/* @media (max-width: 770px) and (min-width:480px) {
+
+} */

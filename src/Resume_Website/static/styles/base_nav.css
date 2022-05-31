@@ -223,4 +223,10 @@ h1{
     body {
         font-size: .8rem;
     } 
+    .flip-logo {
+        visibility:hidden;
+        position: absolute;    
+    }
 }
+
+
