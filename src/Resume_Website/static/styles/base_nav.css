@@ -227,6 +227,25 @@ h1{
         visibility:hidden;
         position: absolute;    
     }
+    #ul-nav{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        opacity: inherit;
+        padding-bottom: 10px;
+        margin-left: 0px;
+    }
+    #right-nav-div{
+        display: inline;
+        margin-left: 0;
+    }
+    .nav-li{
+        margin: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 
