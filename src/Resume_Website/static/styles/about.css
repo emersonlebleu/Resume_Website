@@ -89,7 +89,7 @@ h3 {
     font-size: 2em;
 
     color: #121212;
-    border-radius: 5px;
+    border-bottom: #363636 solid 2px;
 
     margin-top: 4%;
     margin-bottom: 0px;
@@ -113,10 +113,10 @@ p{
         height: auto;
         width: auto;
         max-width: fit-content;
-        transform: translateY(20%);
+        transform: translateY(10%);
         animation: none;
         position: sticky;
-        top: 1%;
+        top: 0%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -140,15 +140,20 @@ p{
     }
 
     .content-container{
-        margin: 4em 1em 5em 1em;
+        margin: 2em 1em 5em 1em;
         height: 80vh;
-    
         padding: 1em 2em 2em 2em;
-    
         padding-bottom: 3em;
     }
 }
 
-/* @media (max-width: 770px) and (min-width:480px) {
-
-} */
+@media (max-width: 770px) {
+    .content-container{
+        margin: 0% 0% 0% 0%;
+        height: fit-content;
+        border-radius: 0%;
+        padding: 3em 1em 1em 1em;
+        box-shadow: none;
+    
+    }
+}
