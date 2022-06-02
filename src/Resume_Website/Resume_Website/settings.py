@@ -45,7 +45,7 @@ RECIPIENT_ADDRESS = env('RECIPIENT_ADDRESS')
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['emerson-lebleu.dev', '165.232.140.195', 'localhost']
 
 
 # Application definition
