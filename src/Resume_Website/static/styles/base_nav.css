@@ -75,6 +75,7 @@ h1{
     position: absolute;
     height: 50px;
     width: 50px;
+    transition: all .25s ease-out;
 }
 
 .hb-line{
