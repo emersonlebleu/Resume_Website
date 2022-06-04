@@ -43,9 +43,9 @@
         aria-label="HB Button"
         id="nav-hb"
         >
-        <line class="hb-line" x1="5px" x2="45px" y1="15px" y2="15px"/>
-        <line class="hb-line" x1="5px" x2="45px" y1="25px" y2="25px"/>
-        <line class="hb-line" x1="5px" x2="45px" y1="35px" y2="35px"/>
+        <line class="hb-line" id="hb-ln-1" x1="5px" x2="45px" y1="15px" y2="15px"/>
+        <line class="hb-line" id="hb-ln-2" x1="5px" x2="45px" y1="25px" y2="25px"/>
+        <line class="hb-line" id="hb-ln-3" x1="5px" x2="45px" y1="35px" y2="35px"/>
     </svg>
         <ul id="ul-nav">
             <li class="nav-li"><a href="/about" class="nav-a">About</a></li>
@@ -68,7 +68,7 @@
         </div>
     </div>
 
-
+    <script src="{% static 'scripts/base.js' %}"></script>
     {% block scripts %}{% endblock %}
 </body>
 </html>
