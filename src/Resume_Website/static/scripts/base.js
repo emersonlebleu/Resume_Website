@@ -10,21 +10,23 @@ var state = 'closed';
 
 // open
 function open() {
-    console.log('open')
-    hb_ln_3.style.visibility = 'hidden'
+    hb_ln_2.style.visibility = 'hidden'
+    hb_ln_1.setAttributeNS(null, 'y2', '35px');
+    hb_ln_3.setAttributeNS(null, 'y2', '15px');
 }
 // close
 function close() {
-    console.log('close')
-    hb_ln_3.style.visibility = 'visible'
+    hb_ln_2.style.visibility = 'visible'
+    hb_ln_1.setAttributeNS(null, 'y2', '15px');
+    hb_ln_3.setAttributeNS(null, 'y2', '35px');
 }
 // hide
 function hide() {
-    console.log('hide')
+    ul_nav.style.visibility = 'hidden'
 }
 // show
 function show() {
-    console.log('show')
+    ul_nav.style.visibility = 'visible'
 }
 
 function toggle(status) {

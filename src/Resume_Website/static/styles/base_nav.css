@@ -74,8 +74,7 @@ h1{
     visibility: hidden;
     position: absolute;
     height: 50px;
-    width: 50px;
-    transition: all .25s ease-out;
+    width: 50px;   
 }
 
 .hb-line{
@@ -254,9 +253,11 @@ h1{
         position: absolute;
         top: 50px;
         right: 0px;
-        overflow: hidden;
         border-radius: 5px;
         width: 30%;
+
+        transition: none;
+        visibility: hidden;
     }
     #right-nav-div{
         display: inline;
@@ -273,9 +274,10 @@ h1{
         opacity: 1;
     }
     .nav-a{
-        background: linear-gradient(to bottom, #696b6a 50%, #53830b 50%);
+        background: inherit;
         background-size: 100% 200%;
         background-position:  top;
+        transition: none;
     }
     
     #nav-hb{
