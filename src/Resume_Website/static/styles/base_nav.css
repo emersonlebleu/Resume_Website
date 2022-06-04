@@ -72,6 +72,15 @@ h1{
 
 #nav-hb{
     visibility: hidden;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.hb-line{
+    stroke: #ffffff;
+    stroke-width: 3px;
+    stroke-linecap: round; 
 }
 
 /* --------------FLIPPING LOGO----------------- */
@@ -234,24 +243,47 @@ h1{
     #ul-nav{
         list-style-type: none;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        opacity: inherit;
+        opacity: .9;
         padding-bottom: 10px;
         margin-left: 0px;
+        background-color: #696b6a;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        overflow: hidden;
+        border-radius: 5px;
+        width: 30%;
     }
     #right-nav-div{
         display: inline;
         margin-left: 0;
     }
+    #main-nav{
+        flex-direction: column;
+        position: relative;
+    }
     .nav-li{
         margin: 2px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding:5px;
+        font-size: 1.5em;
+        opacity: 1;
     }
+    .nav-a{
+        background: linear-gradient(to bottom, #696b6a 50%, #53830b 50%);
+        background-size: 100% 200%;
+        background-position:  top;
+    }
+    
     #nav-hb{
         visibility: visible;
+        position: relative;
+        display: block;
+        align-self: flex-end;
+        margin-right: 10px;
+        margin-bottom: 5px;
     }
 }
 
