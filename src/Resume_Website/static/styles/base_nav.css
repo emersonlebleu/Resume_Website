@@ -240,7 +240,6 @@ h1{
         font-size: .8rem;
     } 
     .flip-logo {
-        visibility:hidden;
         position: absolute;    
     }
     #ul-nav{
