@@ -43,7 +43,6 @@ function toggle(status) {
 }
 
 nav_hb.addEventListener('click', ()=> {
-    console.log('clicked')
     toggle(state);
 })
 
