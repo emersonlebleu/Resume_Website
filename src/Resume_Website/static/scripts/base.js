@@ -46,3 +46,19 @@ nav_hb.addEventListener('click', ()=> {
     console.log('clicked')
     toggle(state);
 })
+
+window.addEventListener('resize', ()=>{
+    if (window.innerWidth > 480){
+        ul_nav.style.visibility = 'visible';
+        hb_ln_2.style.visibility = 'hidden'
+    }
+    else if (window.innerWidth < 480) {
+        if (state == 'closed') {
+            ul_nav.style.visibility = 'hidden';
+            hb_ln_2.style.visibility = 'visible'
+        } else if (state == 'open') {
+            ul_nav.style.visibility = 'visible';
+            open();
+        }
+    }
+}) 

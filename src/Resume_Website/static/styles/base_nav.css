@@ -230,6 +230,9 @@ h1{
     body {
         font-size: .9rem;
     }
+    #ul-nav{
+        visibility: visible;
+    }
 }
 
 @media (max-width:480px) {
