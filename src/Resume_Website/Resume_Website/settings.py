@@ -24,8 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# change to FALSE before pull live
+DEBUG = True
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env('SECRET_KEY')
