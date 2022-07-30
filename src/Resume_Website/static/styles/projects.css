@@ -29,18 +29,6 @@
     position: relative;
 }
 
-/* magnifier settings */
-.img-magnifier-glass {
-    position: absolute;
-    border: none;
-    border-radius: 5px;
-    cursor: none;
-    transform: translateX(100px);
-
-    width: 250px;
-    height: 150px;
-  }
-
   @media (max-width: 770px) {
     #section-container-1 {
         border-radius: 0px;
@@ -53,9 +41,5 @@
     }
     #main-section {
         height: 100%;
-    }
-    .img-magnifier-glass{
-        transform: translateX(50px);
-        width: 100%;
     }
 }
