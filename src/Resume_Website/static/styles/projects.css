@@ -35,6 +35,13 @@
     margin-top: .25em;
 }
 
+#note-container {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 1);
+}
+
 #section-4-list{
     text-align: left;
 }
