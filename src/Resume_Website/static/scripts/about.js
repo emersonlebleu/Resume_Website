@@ -24,7 +24,7 @@ bg_link.addEventListener("click", function(){
         gToBackground(start)    
     } 
     else {
-        gToBackground(center) 
+        gToBackground(start) 
     }
 })
 ps_link.addEventListener("click", function() {
@@ -33,7 +33,7 @@ ps_link.addEventListener("click", function() {
         gToPersonalStatement(start)    
     } 
     else {
-        gToPersonalStatement(center) 
+        gToPersonalStatement(start) 
     }
 })
 intro_link.addEventListener("click", function() {
@@ -42,7 +42,7 @@ intro_link.addEventListener("click", function() {
         gToIntro(start)    
     } 
     else {
-        gToIntro(center) 
+        gToIntro(start) 
     }
 })
 

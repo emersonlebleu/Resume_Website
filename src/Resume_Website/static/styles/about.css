@@ -74,7 +74,7 @@
     border-radius: 20px;
     margin: 5% 1% 9% 1%;
     max-width: 900px;
-    height: 75vh;
+    height: fit-content;
 
     box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.08), -4px -4px 8px 8px rgba(0, 0, 0, 0.08);
     padding: 2em 2em 2em 2em;
@@ -140,7 +140,7 @@ p{
 
     .content-container{
         margin: 2em 1em 5em 1em;
-        height: 80vh;
+        height: fit-content;
         padding: 1em 2em 2em 2em;
         padding-bottom: 3em;
     }
