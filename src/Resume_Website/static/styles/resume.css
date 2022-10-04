@@ -205,6 +205,13 @@ h3 {
     text-align: center;
 }
 
+#tools-container > div > h4 {
+    background-color: #121212;
+    color: #fff;
+    border-radius: 5px;
+    margin: 2px;
+}
+
 /* ----------------Work Experience Section------------------- */
 .work-ex-date{
     display: inline-block;
