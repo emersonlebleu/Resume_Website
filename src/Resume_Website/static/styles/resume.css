@@ -159,7 +159,7 @@ h3 {
 
 /* html logo */
 #tech-container > p:first-child{
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
 }
 /* css logo */
@@ -174,7 +174,7 @@ h3 {
 }
 /* python logo */
 #tech-container > p:nth-child(4){
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 1;  
 }
 /* django logo */
@@ -184,13 +184,19 @@ h3 {
 }
 /* postgresql logo */
 #tech-container > p:nth-child(6){
-    grid-column: 6;
+    grid-column: 5;
     grid-row: 1;   
 }
 /* sql logo */
 #tech-container > p:nth-child(7){
     grid-column: 7;
     grid-row: 2;
+}
+
+/* java logo */
+#tech-container > p:nth-child(8){
+    grid-column: 7;
+    grid-row: 1;
 }
 
 /* ----------------Work Experience Section------------------- */
