@@ -55,7 +55,7 @@
     height: 80%;
 }
 
-#video-container {
+.video-container {
     border-radius: 15px;
     overflow: hidden;
     width: fit-content;
