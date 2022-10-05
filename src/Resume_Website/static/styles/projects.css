@@ -55,11 +55,21 @@
     height: 80%;
 }
 
-.video-container {
-    border-radius: 15px;
+#video-container-1 {
+    border-radius: 10px;
     overflow: hidden;
-    width: fit-content;
+    width: 90%;
+    max-width: 300px;
     margin: auto;
+}
+
+#video-container-2 {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    padding: 0px;
 }
 
 #chart-wrapper {
