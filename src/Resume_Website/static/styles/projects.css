@@ -55,6 +55,13 @@
     height: 80%;
 }
 
+#video-container {
+    border-radius: 15px;
+    overflow: hidden;
+    width: fit-content;
+    margin: auto;
+}
+
 #chart-wrapper {
     position: relative;
 }
